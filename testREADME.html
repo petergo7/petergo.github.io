@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html>
     <style>
+        
+        body{font-family: monaco, monospace;}
 
-        p {
-            font-family: 'Trebuchet MS';
-            font-style: normal;
-            font-size: 107pt;
-            color: darkblue;
-            text-align: center;
-        }
-
-        .centerIMG {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
+        body{background-image: linear-gradient(to bottom right, #11e4ad, #00d4ff);}
     </style>
     <body>
-        <img src = "nasa.svg" height = "920" width = "1100" class = "centerIMG">
-        <a href = "https://www.nasa.gov">
-            <p>8869</p>
-        </a>
+        <h1>
+            Hello! My name is Peter Go!
+        </h1>
+        <p>
+            I'm from Korea, but have lived in Hong Kong for 2 years, and have been in Japan for 5 years from 3rd Grade.
+        </p>
+        <p>
+            Some of my hobbies include coding, building model rockets, and making functional 3D models! So far, I've launched a model rocket built by me up to 33 meters, and one given to me up to around 200 to 300 meters. I also usually code in Python for the Raspberry Pi, but can also code in Swift and SwiftUI and a little bit of Javascript.
+        </p>
+        <style>
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+        <div class="flex-container">
+            <div>
+                <img src = "IMG_3822.jpg", alt = "My first ever self-built rocket! 100% 3D printed." width = "375" height = "500">
+            </div>
+            <div>
+                <p>
+                    My first ever self-built rocket! 100% 3D printed.
+                </p>
+            </div>
+            <div>
+                <img src = "IMG_3999.jpg", alt = "My Creality Ender 3D Printer printing a 6 hour print." width = "375" height = "500">
+            </div>
+            <div>
+                <p>
+                    My Creality Ender 3D Printer printing a 6 hour print.
+                </p>
+            </div>
+        </div>
+        <p>
+            When I grow up, I want to make a rocket company like SpaceX and make satellite deployment more affordable.
+        </p>
+        <iframe width="840" height="630"
+            src="https://www.youtube.com/embed/wbSwFU6tY1c?autoplay=1?">
+        </iframe>
     </body>
 </html>
