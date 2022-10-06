@@ -1,3 +1,8 @@
-# petergo.github.io
-
-This is a website made using GitHub Pages, and is created for my final quarter HTML project. 
+---
+layout: forward
+target: https://petergo7.github.io/petergo.github.io/testREADME.html
+targetname: https://petergo7.github.io/petergo.github.io/testREADME.html
+targettitle: Taking you to the https://petergo7.github.io/petergo.github.io/testREADME.html!
+time: 10
+message: This isn't here any more!
+---
