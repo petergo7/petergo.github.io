@@ -4,12 +4,23 @@
         
         body {
             font-family: monaco, monospace;
+            display:flex; 
+            flex-direction:column;
         }
 
         html {
             background-image: linear-gradient(to bottom, #11e4ad, #00d4ff);
             background-repeat: no-repeat;
             background-size:cover;
+        }
+
+        footer { 
+            min-height:50px;
+        }
+
+        .footerText {
+            text-align: center;
+            font-family: monaco, monospace;
         }
     </style>
     <body>
@@ -18,10 +29,10 @@
         </h1>
     </body>
     <footer>
-        <p>
-            Commit Version SCARY.1.03
+        <p class = "footerText">
+            Commit Version SCARY.1.04
         </p>
-        <p>
+        <p class = "footerText">
             This is a developmental site made by Peter Go using Visual Studio Code and GitHub. 
         </p>
     </footer>
