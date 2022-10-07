@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <style>
-        .flexArticle {
+
+        .flexBody {
             display:flex; 
             flex-direction:column;
+        }
+
+        .flexArticle {
             flex: 2;
             height: 100%;
-            justify-content: stretch;
+            margin: 0;
             font-family: monaco, monospace;
         }
 
@@ -16,8 +20,9 @@
             background-size:cover;
         }
 
-        footer { 
+        .footer { 
             min-height:50px;
+            background-color: PapayaWhip;
         }
 
         .footerText {
@@ -30,9 +35,9 @@
             Hello, GitHub!
         </h1>
     </article>
-    <footer>
+    <footer class = "footer">
         <p class = "footerText">
-            Commit Version e.1.98
+            Commit Version e.2.001
         </p>
         <p class = "footerText">
             This is a developmental site made by Peter Go using Visual Studio Code and GitHub. 
