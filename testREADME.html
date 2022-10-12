@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <style>
 
+    <script>
+        let versionName = "e.2.017";
+        document.getElementById("version").innerHTML = versionName; 
+    </script>
+
+    <style>
         .flexBody {
             display:flex; 
             flex-direction:column;
             flex: 2;
             margin: 0;
-            min-height: 100vh;
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum flex! Just don't delete it ok? :) */
         }
 
         .flexArticle {
@@ -48,15 +53,15 @@
         }
     </style>
     <body class = "flexBody">
+        <!-- The Article is actually where we start doing something useful... You might have a CSS or JavaScript -->
         <article class = "flexArticle">
             <h1>
                 Hello, GitHub!
             </h1>
         </article>
+        <!-- The footer below contains all the fine print so... yeah. Don't delete it pls -->
         <footer class = "footer">
-            <p class = "footerText">
-                Commit Version e.2.013
-            </p>
+            <p class = "footerText" id = "version"></p>
             <p class = "finePrint">
                 This is a developmental site made by Peter Go using Visual Studio Code and GitHub. 
             </p>
