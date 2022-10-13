@@ -6,7 +6,7 @@
             flex-direction:column;
             flex: 2;
             margin: 0;
-            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum flex! Just don't delete it ok? :) */
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
         }
 
         .flexArticle {
@@ -36,6 +36,8 @@
             font-size: 10px;
             max-width: 750px;
             font-family: monaco, monospace;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .finePrint {
@@ -44,6 +46,8 @@
             font-family: monaco, monospace;
             overflow-wrap: break-word;
             max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <body class = "flexBody">
@@ -58,6 +62,9 @@
                 <br>
                 - Handle user input along with seperate blog posts
             </h1>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <input type="submit">
         </article>
         <!-- The footer below contains all the fine print so... yeah. Don't delete it pls -->
         <footer class = "footer">
@@ -65,7 +72,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.020";
+                let versionName = "Commit Version e.2.021";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
