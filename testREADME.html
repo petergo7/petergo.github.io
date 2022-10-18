@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- Styling ✨ -->
     <style>
         .flexBody {
             display:flex; 
@@ -49,22 +50,32 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        .navTop {
+            background-color: #660066;
+            overflow: hidden;
+        }
+
+        .navTop a {
+            float: left;
+            text-align: center;
+            padding: 15px;
+            color: #ffb84d;
+            font-size: 21px;
+        }
     </style>
+
     <body class = "flexBody">
         <!-- The Article is actually where we start doing something useful... You might have a CSS or JavaScript -->
         <article class = "flexArticle">
-            <h1>
-                Todo:
-                <br>
-                - Add menu bar with CSS animation
-                <br>
-                - Complete every page with smooth animations
-                <br>
-                - Handle user input along with seperate blog posts
-            </h1>
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd">
-            <input type="submit">
+
+            <div class = "navTop">
+                <a href="https://petergo7.github.io/petergo.github.io/testREADME.html">Introduction</a>
+                <a href="https://petergo7.github.io/petergo.github.io/qualifications.html">Qualifications</a>
+                <a href="https://petergo7.github.io/petergo.github.io/experience.html">Experience</a>
+                <a href="https://petergo7.github.io/petergo.github.io/goals.html">Goals</a>
+            </div>
+
         </article>
         <!-- The footer below contains all the fine print so... yeah. Don't delete it pls -->
         <footer class = "footer">
@@ -72,7 +83,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.022";
+                let versionName = "Commit Version e.2.024";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
