@@ -52,23 +52,25 @@
         }
 
         .navTop {
-            background-color: #660066;
+            background-color: #425F57;
             overflow: hidden;
         }
 
         .navTop a {
             float: left;
             text-align: center;
-            padding: 15px;
-            color: #ffb84d;
+        }
+
+        .navTop a .active {
+            color: #CFFF8D;
             font-size: 21px;
             font-style: normal;
-            background-color: #11e4ad;
+            background-color: #425F57;
         }
     </style>
 
     <body class = "flexBody">
-        <!-- The Article is actually where we start doing something useful... You might have a CSS or JavaScript -->
+        <!-- The Article is actually where we start doing something useful... You might have a CSS or JavaScript element -->
         <article class = "flexArticle">
 
             <div class = "navTop">
@@ -85,7 +87,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.025";
+                let versionName = "Commit Version LEGACY e.2.026";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
