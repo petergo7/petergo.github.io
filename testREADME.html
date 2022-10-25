@@ -46,7 +46,7 @@
             font-size: 5px;
             font-family: monaco, monospace;
             overflow-wrap: break-word;
-            max-width: 750px;
+            max-width: 1250px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -54,11 +54,18 @@
         .navTop {
             background-color: #425F57;
             overflow: hidden;
+            padding: 15 px;
         }
 
         .navTop a {
             float: left;
             text-align: center;
+            color: #CFFF8D;
+            border-radius: 10px;
+            font-size: 21px;
+            font-style: normal;
+            background-color: #A8E890;
+            padding: 15 px;
         }
 
         .navTop a .active {
@@ -66,6 +73,11 @@
             font-size: 21px;
             font-style: normal;
             background-color: #425F57;
+            padding: 15 px;
+        }
+
+        .flex-container {
+            display: flex;
         }
     </style>
 
@@ -87,7 +99,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version LEGACY e.2.026";
+                let versionName = "Commit Version e.2.027";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
@@ -95,23 +107,20 @@
                 This is a developmental site made by Peter Go using Visual Studio Code and GitHub. 
             </p>
 
-            <p class = "finePrint">
-                This webpage may be archived. Chnages may happen to this webpage any time. This page is hosted on the GitHub repository "petergo.github.io". This webpage is created and operated for the CS8 (Computer Science Grade 8) class in St. Mary's International School. This webpage, does not resemble any real value other than the source code being used for the assesment of the assignment, any code used on this webpage may be copied.
-                <br>
-                <br>
-                <br>
-                <br>
-                Copyright 2022 Peter Woojin Go
-                <br>
-                <br>
-                Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-                <br>
-                <br>
-                The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-                <br>
-                <br>
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-            </p>
+            <div class = "flex-container">
+                
+                <div>
+                    <p class = "finePrint">
+                        This webpage may be archived. Chnages may happen to this webpage any time. This page is hosted on the GitHub repository "petergo.github.io". This webpage is created and operated for the CS8 (Computer Science Grade 8) class in St. Mary's International School. This webpage, does not resemble any real value other than the source code being used for the assesment of the assignment, any code used on this webpage may be copied.
+                    </p>
+                </div>
+
+                <div>
+                    <img src = "Powered By.svg" alt = "Powered by HTML 5, Javascript, and CSS 3. This is a scalable vector graphics."
+                </div>
+
+            </div>
+            
 
         </footer>
     </body>
