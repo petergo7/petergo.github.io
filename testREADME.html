@@ -53,21 +53,22 @@
 
         .navTop {
             overflow: hidden;
-            padding: 15px;
         }
 
         .navTop a {
             float: left;
             text-align: center;
             color: #FDF599ff;
-            border-radius: 2px;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
             font-size: 21px;
             font-style: normal;
             background-color: #0C0992ff;
-            margin: 15px;
+            margin: 10px;
         }
 
-        .navTop a .active {
+        .navTop a.active {
             color: rgb(0, 0, 0);
             background-color: linear-gradient (90deg, #0C0992ff 20%, #518CB7ff 60%, #0C0992ff 20%);
             font-size: 21px;
@@ -98,7 +99,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.036";
+                let versionName = "Commit Version e.2.038";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
