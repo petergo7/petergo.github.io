@@ -54,6 +54,9 @@
         .navTop {
             overflow: hidden;
         }
+        a:link { 
+            text-decoration: none; 
+        }
 
         .navTop a {
             float: left;
@@ -70,10 +73,12 @@
 
         .navTop a.active {
             color: rgb(0, 0, 0);
-            background-color: linear-gradient (90deg, #0C0992ff 20%, #518CB7ff 60%, #0C0992ff 20%);
+            background-color: linear-gradient (90deg, rgb(8, 6, 87) 20%, #518CB7ff 60%, rgb(8, 6, 87) 20%);
             font-size: 21px;
             font-style: normal;
-            margin: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 10px;
         }
 
         .flex-container {
@@ -99,7 +104,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.038";
+                let versionName = "Commit Version e.2.039";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
