@@ -13,9 +13,9 @@
 
 
         p {
-            font-family: Geneva;
+            font-family: monaco, monospace;
             font-size: 20px;
-            color: #A51F36ff;
+            color: #474347;
         }
 
         table th {
@@ -70,6 +70,13 @@
             margin: 0;
             min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
         }
+
+        .flexArticle {
+            display:flex; 
+            flex-direction:column;
+            flex: 1;
+            font-family: monaco, monospace;
+        }
     </style>
     <body class = "flexBody">
         <div class = "navTop">
@@ -78,40 +85,39 @@
             <a href="https://petergo7.github.io/petergo.github.io/experience.html" class = "everything" >Experience</a>
             <a href="https://petergo7.github.io/petergo.github.io/goals.html" class = "everything" >Goals</a>
         </div>
-        <h1><strong>
-            Qualifications
-        </h1></strong>
-        <h2><b>
-            Education
-        </h2></b>
-        <table width = "1000px">
-            <tr>
-                <th><strong>Organisation</strong></th>
-                <th><strong>From</strong></th>
-                <th><strong>To</strong></th>
-                <th><strong>Certificate</strong></th>
-            </tr>
-            <tr>
-                <td>Delia School of Canada</td>
-                <td>2014</td>
-                <td>2016</td>
-                <td>N/A</td>
-            </tr>
-            <tr>
-                <td>St. Mary's International School</td>
-                <td>2017</td>
-                <td>2026</td>
-                <td>N/A</td>
-            </tr>
-            <tr>
-                <td>Washington University in St. Louis</td>
-                <td>2026</td>
-                <td>2030</td>
-                <td>Bachelors Degree in Mechanical Engineering and Aerospace Engineering</td>
-            </tr>
-        </table>
-        <p>
-            Warning: Links may or may not work, as this webpage is out of date compared to the new standard.
-        </p>
+        <article>
+            <h1><strong>
+                Qualifications
+            </h1></strong>
+            <h2><b>
+                Education
+            </h2></b>
+            <table width = "1000px">
+                <tr>
+                    <th><strong>Organisation</strong></th>
+                    <th><strong>From</strong></th>
+                    <th><strong>To</strong></th>
+                    <th><strong>Certificate</strong></th>
+                </tr>
+                <tr>
+                    <td>Delia School of Canada</td>
+                    <td>2014</td>
+                    <td>2016</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>St. Mary's International School</td>
+                    <td>2017</td>
+                    <td>2026</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Washington University in St. Louis</td>
+                    <td>2026</td>
+                    <td>2030</td>
+                    <td>Bachelors Degree in Mechanical Engineering and Aerospace Engineering</td>
+                </tr>
+            </table>
+        </article>
     </body>
 </html>

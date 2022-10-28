@@ -5,6 +5,7 @@
 --steel-blue: #518CB7ff;
 --duke-blue: #0C0992ff;
 --black-shadows: #BEB5BEff;
+--common-black: #474347;
 
 /* CSS HSL */
 --lemon-yellow-crayola: hsla(55, 96%, 80%, 1);
