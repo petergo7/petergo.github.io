@@ -18,14 +18,15 @@
         }
 
         html {
-            background-image: linear-gradient(to bottom, #11e4ad, #00d4ff);
+            background-image: linear-gradient(to bottom, #FDF599ff, #518CB7ff);
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         .footer { 
             min-height:50px;
-            background-color: PapayaWhip;
+            background-color: #BEB5BEff;
+            opacity: 75%;
         }
 
         .elementCenter {
@@ -33,6 +34,7 @@
         }
 
         .footerText {
+            color: #FFFFFFFF;
             text-align: center;
             font-size: 10px;
             max-width: 750px;
@@ -42,6 +44,7 @@
         }
 
         .finePrint {
+            color: #FFFFFFFF;
             text-align: left;
             font-size: 5px;
             font-family: monaco, monospace;
@@ -61,7 +64,7 @@
         .navTop a.everything {
             float: left;
             text-align: center;
-            color: rgb(188, 173, 0);
+            color: #518CB7ff;
             border-radius: 5px;
             padding-left: 20px;
             padding-right: 20px;
@@ -72,12 +75,15 @@
         }
 
         .navTop a.active {
-            background-color: rgb(159, 158, 221);          
-            color: linear-gradient(90deg, rgba(12,9,146,1), rgba(81,140,183,1), rgba(12,9,146,1));
-            font-size: 15px;
-            font-style: normal;
+            background-color: #0C0992ff;          
+            color: #FDF599ff;
+            float: left;
+            text-align: center;
+            border-radius: 5px;
             padding-left: 20px;
             padding-right: 20px;
+            font-size: 15px;
+            font-style: normal;
             margin: 10px;
         }
 
@@ -96,6 +102,8 @@
                 <a href="https://petergo7.github.io/petergo.github.io/experience.html" class = "everything" >Experience</a>
                 <a href="https://petergo7.github.io/petergo.github.io/goals.html" class = "everything" >Goals</a>
             </div>
+            
+            
 
         </article>
         <!-- The footer below contains all the fine print so... yeah. Don't delete it pls -->
@@ -104,7 +112,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.046";
+                let versionName = "Commit Version e.2.047";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 

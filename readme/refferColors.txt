@@ -1,4 +1,5 @@
 /* CSS HEX */
+--pure-white: #FFFFFFFF;
 --lemon-yellow-crayola: #FDF599ff;
 --vivid-burgundy: #A51F36ff;
 --steel-blue: #518CB7ff;
