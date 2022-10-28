@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
     <style>
-        .navTop {
-            background-color: #660066;
-            overflow: hidden;
+        h1 {
+            font-family: monaco, monospace;
+            font-size: 72px;
         }
+
+        h2 {
+            font-family: monaco, monospace;
+            font-size: 36px;
+        }
+
 
         p {
             font-family: Geneva;
@@ -12,35 +18,78 @@
             color: #A51F36ff;
         }
 
-        .navTop a {
+        table th {
+            font-family: monaco, monospace;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        table td {
+            font-family: monaco, monospace;
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        .navTop {
+            overflow: hidden;
+        }
+        a:link { 
+            text-decoration: none; 
+        }
+
+        .navTop a.everything {
             float: left;
             text-align: center;
-            padding: 15px;
-            color: #ffb84d;
-            font-size: 21px;
+            color: #518CB7ff;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
             font-style: normal;
-            background-color: #11e4ad;
+            background-color: #0C0992ff;
+            margin: 10px;
+        }
+
+        .navTop a.active {
+            background-color: #0C0992ff;          
+            color: #FDF599ff;
+            float: left;
+            text-align: center;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+            font-style: normal;
+            margin: 10px;
+        }
+
+        .flexBody {
+            display:flex; 
+            flex-direction:column;
+            flex: 2;
+            margin: 0;
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
         }
     </style>
-    <body>
+    <body class = "flexBody">
         <div class = "navTop">
-            <a href="https://petergo7.github.io/petergo.github.io/testREADME.html">Introduction</a>
-            <a href="https://petergo7.github.io/petergo.github.io/qualifications.html">Qualifications</a>
-            <a href="https://petergo7.github.io/petergo.github.io/experience.html">Experience</a>
-            <a href="https://petergo7.github.io/petergo.github.io/goals.html">Goals</a>
+            <a href="https://petergo7.github.io/petergo.github.io/mains.html" class = "active" >Introduction</a>
+            <a href="https://petergo7.github.io/petergo.github.io/qualifications.html" class = "everything" >Qualifications</a>
+            <a href="https://petergo7.github.io/petergo.github.io/experience.html" class = "everything" >Experience</a>
+            <a href="https://petergo7.github.io/petergo.github.io/goals.html" class = "everything" >Goals</a>
         </div>
-        <h1>
+        <h1><strong>
             Qualifications
-        </h1>
-        <h2>
+        </h1></strong>
+        <h2><b>
             Education
-        </h2>
+        </h2></b>
         <table width = "1000px">
             <tr>
-                <th>Orgnaisation</th>
-                <th>From</th>
-                <th>To</th>
-                <th>Certificate</th>
+                <th><strong>Organisation</strong></th>
+                <th><strong>From</strong></th>
+                <th><strong>To</strong></th>
+                <th><strong>Certificate</strong></th>
             </tr>
             <tr>
                 <td>Delia School of Canada</td>
