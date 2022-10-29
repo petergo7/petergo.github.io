@@ -1,37 +1,156 @@
 <!DOCTYPE html>
 <html>
     <style>
-        .navTop {
-            background-color: #660066;
-            overflow: hidden;
+        h1 {
+            font-family: monaco, monospace;
+            font-size: 32px;
         }
+
+        h2 {
+            font-family: monaco, monospace;
+            font-size: 20px;
+        }
+
 
         p {
-            font-family: Geneva;
-            font-size: 20px;
-            color: #A51F36ff;
+            font-family: monaco, monospace;
+            font-size: 14px;
+            color: #474347;
         }
 
-        .navTop a {
+        .navTop {
+            overflow: hidden;
+            font-family: monaco, monospace;
+        }
+
+        a:link { 
+            text-decoration: none; 
+        }
+
+        .navTop a.everything {
             float: left;
             text-align: center;
-            padding: 15px;
-            color: #ffb84d;
-            font-size: 21px;
+            color: #518CB7ff;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
             font-style: normal;
-            background-color: #11e4ad;
+            background-color: #0C0992ff;
+            margin: 10px;
+        }
+
+        .sourceCode {
+            font-family: 'Courier New', Courier, monospace;
+            float: left;
+            text-align: center;
+            color: #FFFFFFFF;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 12px;
+            font-style: normal;
+            background-color: #000000;
+            margin: 10px;
+        }
+
+        .navTop a.active {
+            background-color: #0C0992ff;          
+            color: #FDF599ff;
+            float: left;
+            text-align: center;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+            font-style: normal;
+            margin: 10px;
+        }
+
+        .flexBody {
+            display:flex; 
+            flex-direction:column;
+            flex: 2;
+            margin: 0;
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
+        }
+
+        .flexArticle {
+            display:flex; 
+            flex-direction:column;
+            flex: 1;
+            font-family: monaco, monospace;
+        }
+
+        html {
+            background-image: linear-gradient(to bottom, #ABD9FF, #BEB5BEff);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /*
+        Deprecated
+        */
+        .responsive {
+            width: 100%;
+            max-width: 1200px;
+            max-height: 1000px;
+            height: auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .flex-containerNew {
+            flex-direction: column;
+            margin: 20px;
         }
     </style>
-    <body>
+    <body class = "flexBody">
         <div class = "navTop">
-            <a href="https://petergo7.github.io/petergo.github.io/">Introduction</a>
-            <a href="https://petergo7.github.io/petergo.github.io/">Qualifications</a>
-            <a href="https://petergo7.github.io/petergo.github.io/">Experience</a>
-            <a href="https://petergo7.github.io/petergo.github.io/">Goals</a>
+            <a href="https://petergo7.github.io/petergo.github.io/mains.html" class = "everything" >Introduction</a>
+            <a href="https://petergo7.github.io/petergo.github.io/qualifications.html" class = "everything" >Qualifications</a>
+            <a href="https://petergo7.github.io/petergo.github.io/experience.html" class = "active" >Experience</a>
+            <a href="https://petergo7.github.io/petergo.github.io/goals.html" class = "everything" >Goals</a>
+            <a href = "https://github.com/petergo7/petergo.github.io" class = "sourceCode">
+                Source Code: Redirect to GitHub 💻
+            </a>
         </div>
-
-        <p>
-            Warning: Links may or may not work, as this webpage is very out of date compared to the new standard.
-        </p>
+        <article class = "flexArticle">
+            <h1><strong>
+                Goals
+            </h1></strong>
+            <h2><b>
+                MY Future Goals
+            </h2></b>
+            <p>
+                
+            </p>
+            <div class = "flex-container">
+                </div>
+                    <div class = "flex-containerNew"> 
+                        <img src = "assets/SpaceX_HQ.jpeg" alt = "Photo of SpaceX HQ" width = "718" height = "418">
+                        <p>The Amazing SpaceX HQ</p>
+                    </div>
+                </div>
+                </div>
+                    <div class = "flex-containerNew"> 
+                        <img src = "assets/SpaceX_Photo1.jpg" alt = "Photo of SpaceX Employees" width = "500" height = "374">
+                        <p>The SpaceX Company Group Photo!</p>
+                    </div>
+                </div>
+                </div>
+                    <div class = "flex-containerNew"> 
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>My SpinLaunch Coworkers!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
     </body>
 </html>
