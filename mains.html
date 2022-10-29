@@ -126,6 +126,11 @@
             flex-wrap: wrap;
             flex-direction: row;
         }
+
+        .flex-containerNew {
+            flex-direction: column;
+            margin: 20px;
+        }
     </style>
 
     <body class = "flexBody">
@@ -158,12 +163,41 @@
             </p>
 
             <div class = "flex-container">
-                <div><img src = "assets/Ariane_Launch1.jpeg" width = "668" height = "800"></div>
-                <div><img src = "assets/DSN1.jpg" width = "1080" height = "720"></div>
-                <div><img src = "assets/Falcon_Launch1.jpg" width = "1200" height = "879"></div>
-                <div><img src = "assets/Soyuz_Launch1.jpeg" width = "600" height = "400"></div>
-                <div><img src = "assets/JAXA_Launch1.jpg" width = "1092" height = "763"></div>
-                <div><img src = "assets/Starship4.jpeg" width = "563" height = "1000"></div>
+                <div>
+                    <div class = "flex-containerNew"> 
+                        <img src = "assets/Ariane_Launch1.jpeg" width = "668" height = "800">
+                        <p>Ariane Rocket Launching Out of French Guiana</p>
+                    </div>
+                </div>
+                <div>
+                    <div class = "flex-containerNew">
+                        <img src = "assets/DSN1.jpg" width = "1080" height = "720">
+                        <p>The Deep Space Network in Barstow, California</p>
+                    </div>
+                <div>
+                    <div class = "flex-containerNew"> 
+                        <img src = "assets/Falcon_Launch1.jpg" width = "1200" height = "879">
+                        <p>Falcon Heavy Launching from Kennedy Space Center, Florida</p>
+                    </div>
+                </div>
+                <div>
+                    <div class = "flex-containerNew">
+                        <img src = "assets/Soyuz_Launch1.jpeg" width = "600" height = "400">
+                        <p>Soyuz Launching from Baikonur Cosmodrome in Kazakhstan</p>
+                    </div>
+                </div>
+                <div>
+                    <div class = "flex-containerNew">
+                        <img src = "assets/JAXA_Launch1.jpg" width = "1092" height = "763">
+                        <p>A JAXA Rocket Launching at Tanegashima</p>
+                    </div>
+                </div>
+                <div>
+                    <div class = "flex-containerNew">
+                        <img src = "assets/Starship4.jpeg" width = "563" height = "1000">
+                        <p>The Starship Rocket Fully Stacked at Boca Chica</p>
+                    </div>
+                </div>
             </div>
             
         </article>
@@ -173,7 +207,7 @@
             <p class = "footerText" id = "version"></p>
 
             <script>
-                let versionName = "Commit Version e.2.062 ✨";
+                let versionName = "Commit Version e.2.063 ✨";
                 document.getElementById("version").innerHTML = versionName; 
             </script>
 
