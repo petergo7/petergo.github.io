@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        p {
+            font-family: monaco, monospace;
+            font-size: 14px;
+            color: #474347;
+        }
+
+        h1 {
+            font-family: monaco, monospace;
+            font-size: 32px;
+        }
+
+        h2 {
+            font-family: monaco, monospace;
+            font-size: 20px;
+        }
+
+        .sourceCode {
+            font-family: 'Courier New', Courier, monospace;
+            float: left;
+            text-align: center;
+            color: #FFFFFFFF;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 12px;
+            font-style: normal;
+            background-color: #000000;
+            margin: 10px;
+        }
+    </style>
+    <body>
+        <article>
+            <pre>
+                <code>
+                    <!DOCTYPE html>
+                    <html>
+                        <style>
+                            p {
+                                font-family: monaco, monospace;
+                                font-size: 25px;
+                                color: #518CB7ff;
+                            }
+
+                            .centerText {
+                                text-align: center;
+                            }
+                        </style>
+                        <body>
+                            <article>
+                                <p>
+
+                                </p>
+                                <p>
+                                    Commit Version js.p.010
+                                </p>
+
+                                <p id = "univName"></p>
+
+                                <script>
+                                    var name = "Octocat";
+                                    var age = 14;
+                                    var DoB = "10/04/2008";
+                                    var mail = "octocat@github.com"
+                                    var fields = 0
+                                    var maxFields = 5
+                                    var ageInDays = age*365
+                                    var fieldNames = [name, age, ageInDays, DoB, mail]
+
+                                    // Depreceated
+                                    /*
+                                    while (fields < maxFields) {
+                                        console.log(fieldNames[fields])
+                                        fields += 1
+                                    }
+                                    */
+
+                                    let universalName = prompt("What is your name?");
+                                    console.log(universalName)
+                                    document.getElementById("univName").innerHTML = universalName;
+                                </script>
+                            </article>
+                        </body>
+                    </html>
+                </code>
+            </pre>
+        </article>
+    </body>
+</html>
