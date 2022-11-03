@@ -4,6 +4,7 @@
 --vivid-burgundy: #A51F36ff;
 --steel-blue: #518CB7ff;
 --duke-blue: #0C0992ff;
+--titanium-dark-purple: #6f006f;
 --black-shadows: #BEB5BEff;
 --common-black: #474347;
 --dark-beige: #FFEBAD;

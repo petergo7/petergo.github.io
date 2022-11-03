@@ -17,7 +17,12 @@
             font-size: 20px;
         }
 
-        .sourceCode {
+        .centerObj {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .sourceCodeDark {
             font-family: 'Courier New', Courier, monospace;
             float: left;
             text-align: center;
@@ -29,65 +34,43 @@
             padding-bottom: 3px;
             font-size: 12px;
             font-style: normal;
-            background-color: #000000;
+            background-color: #6f006f;
+            margin: 10px;
+        }
+
+        .sourceCodeEmoji {
+            font-family: 'Courier New', Courier, monospace;
+            float: left;
+            text-align: center;
+            color: #FFFFFFFF;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 12px;
+            font-style: normal;
+            background-color: #BEB5BEff;
             margin: 10px;
         }
     </style>
     <body>
         <article>
-            <pre>
-                <code>
-                    <!DOCTYPE html>
-                    <html>
-                        <style>
-                            p {
-                                font-family: monaco, monospace;
-                                font-size: 25px;
-                                color: #518CB7ff;
-                            }
-
-                            .centerText {
-                                text-align: center;
-                            }
-                        </style>
-                        <body>
-                            <article>
-                                <p>
-
-                                </p>
-                                <p>
-                                    Commit Version js.p.010
-                                </p>
-
-                                <p id = "univName"></p>
-
-                                <script>
-                                    var name = "Octocat";
-                                    var age = 14;
-                                    var DoB = "10/04/2008";
-                                    var mail = "octocat@github.com"
-                                    var fields = 0
-                                    var maxFields = 5
-                                    var ageInDays = age*365
-                                    var fieldNames = [name, age, ageInDays, DoB, mail]
-
-                                    // Depreceated
-                                    /*
-                                    while (fields < maxFields) {
-                                        console.log(fieldNames[fields])
-                                        fields += 1
-                                    }
-                                    */
-
-                                    let universalName = prompt("What is your name?");
-                                    console.log(universalName)
-                                    document.getElementById("univName").innerHTML = universalName;
-                                </script>
-                            </article>
-                        </body>
-                    </html>
-                </code>
-            </pre>
+            <h1 class="centerObj">
+                Welcome to Peter's Webpage!
+            </h1>
+            <p class="centerObj">
+                Mainly used for Computer Science Showcasing
+            </p class="centerObj">
+            <p class="centerObj"> 
+                Click a button below to be taken to that project/file showcase.
+            </p>
+            <a href = "introduction.html" class = "sourceCodeDark" class="centerObj">
+                End of Term Project (Main Introduction Page) 📑
+            </a>
+            <a href = "javascriptPlayground.html" class = "sourceCodeEmoji" class="centerObj">
+                Constantly Updating JavaScript File Page 🔨
+            </a>
         </article>
     </body>
 </html>
