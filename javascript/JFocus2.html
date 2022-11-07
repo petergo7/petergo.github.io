@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <title>JavaScript JFocus 1 -petergo7</title>
+
+    <style>
+        p {
+            font-family: monaco, monospace;
+            font-size: 25px;
+            color: #518CB7ff;
+        }
+
+        .centerText {
+            text-align: center;
+        }
+    </style>
+    <body>
+        <article>
+            <p>
+
+            </p>
+            <p>
+                Commit Version js.p.010
+            </p>
+
+            <p id = "univName"></p>
+
+            <script>
+                var name = "Octocat";
+                var age = 14;
+                var DoB = "10/04/2008";
+                var mail = "octocat@github.com"
+                var fields = 0
+                var maxFields = 5
+                var ageInDays = age*365
+                var fieldNames = [name, age, ageInDays, DoB, mail]
+
+                // Depreceated
+                /*
+                while (fields < maxFields) {
+                    console.log(fieldNames[fields])
+                    fields += 1
+                }
+                */
+
+                let universalName = prompt("What is your name?");
+                console.log(universalName)
+                document.getElementById("univName").innerHTML = universalName;
+            </script>
+            <p>
+                See JS Code file below:
+            </p>
+            <p class="codepen" data-height="1000" data-theme-id="dark" data-default-tab="html" data-slug-hash="LYrNMxW" data-preview="true" data-user="petergo7" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/petergo7/pen/LYrNMxW">
+                JS Commit GHCID 11.3.C2</a> by petergo7 (<a href="https://codepen.io/petergo7">@petergo7</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p>
+                The code above is a simple view of the existing code running on this webpage. The code was made in Visual Studio Code, then pasted into a pen (CodePen) where it is displayed from.
+            </p>
+            <p class = "warning"></p>
+        </article>
+    </body>
+</html>
