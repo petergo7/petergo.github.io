@@ -5,5 +5,8 @@ Nov 9th PU4 (Peter) - Fixed some bugs, PU2 had a LOT of bugs including classes s
 Nov 9th PU5 (Peter) - Attempt at fixing some bugs
 Nov 9th PU6 (Peter) - Attempt de finale at fixing some bugs
 
+Nov 9th Cls1 (Peter) - JFoucus 2 Build
+
+
 Thanks for taking your time to read the change log! 
 Have a nice day! :)
