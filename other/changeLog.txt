@@ -6,6 +6,7 @@ Nov 9th PU5 (Peter) - Attempt at fixing some bugs
 Nov 9th PU6 (Peter) - Attempt de finale at fixing some bugs
 
 Nov 9th Cls1 (Peter) - JFoucus 2 Build
+Nov 9th Cls2 (Peter) - JFoucus 2 Build
 
 
 Thanks for taking your time to read the change log! 

@@ -1,64 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <title>JavaScript JFocus 1 -petergo7</title>
+	<style>
 
-    <style>
-        p {
-            font-family: monaco, monospace;
-            font-size: 25px;
-            color: #518CB7ff;
-        }
+		h1{
+	 		color:orange;
+	 	}
 
-        .centerText {
-            text-align: center;
-        }
-    </style>
-    <body>
-        <article>
-            <p>
+	 	p{	
+	 		font-family:courier new;
+	 	}
+	</style> 
+	<body>
+		<center><img src = "images/doggy.jpg"/></center>
+		<h1>Vincent The Vet</h1>
+		<p>Welcome to Vincent the Vet!</p>
+		<p>Thank you for inputting your information. See you and you dog soon!</p>
+		<script>
+			var name;
+			var age;
+			var address;
+			var payment;
 
-            </p>
-            <p>
-                Commit Version js.p.010
-            </p>
+			name = prompt("Please enter your name: ");
+			age = prompt("Please enter your age: ");
 
-            <p id = "univName"></p>
+			// Parse payment to be integer
+			payment = parseInt(payment);
 
-            <script>
-                var name = "Octocat";
-                var age = 14;
-                var DoB = "10/04/2008";
-                var mail = "octocat@github.com"
-                var fields = 0
-                var maxFields = 5
-                var ageInDays = age*365
-                var fieldNames = [name, age, ageInDays, DoB, mail]
+			// Calc. Tax
+			var tax = payment*0.17;
 
-                // Depreceated
-                /*
-                while (fields < maxFields) {
-                    console.log(fieldNames[fields])
-                    fields += 1
-                }
-                */
-
-                let universalName = prompt("What is your name?");
-                console.log(universalName)
-                document.getElementById("univName").innerHTML = universalName;
-            </script>
-            <p>
-                See JS Code file below:
-            </p>
-            <p class="codepen" data-height="1000" data-theme-id="dark" data-default-tab="html" data-slug-hash="LYrNMxW" data-preview="true" data-user="petergo7" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                <span>See the Pen <a href="https://codepen.io/petergo7/pen/LYrNMxW">
-                JS Commit GHCID 11.3.C2</a> by petergo7 (<a href="https://codepen.io/petergo7">@petergo7</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-            </p>
-            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-            <p>
-                The code above is a simple view of the existing code running on this webpage. The code was made in Visual Studio Code, then pasted into a pen (CodePen) where it is displayed from.
-            </p>
-            <p class = "warning"></p>
-        </article>
-    </body>
+			console.log("Your name is " + name);
+			console.log("Your age is " + age);
+			console.log("Your address is " + address);
+			console.log("Your payment is " + payment);
+			console.log("Your tax is " + tax);
+		</script>
+	</body>
 </html>
+
