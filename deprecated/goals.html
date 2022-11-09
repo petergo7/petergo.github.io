@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1 {
+            font-family: monaco, monospace;
+            font-size: 32px;
+        }
+
+        h2 {
+            font-family: monaco, monospace;
+            font-size: 20px;
+        }
+
+
+        p {
+            font-family: monaco, monospace;
+            font-size: 14px;
+            color: #474347;
+        }
+
+        .navTop {
+            overflow: hidden;
+            font-family: monaco, monospace;
+        }
+
+        a:link { 
+            text-decoration: none; 
+        }
+
+        .navTop a.everything {
+            float: left;
+            text-align: center;
+            color: #518CB7ff;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+            font-style: normal;
+            background-color: #0C0992ff;
+            margin: 10px;
+        }
+
+        .sourceCode {
+            font-family: 'Courier New', Courier, monospace;
+            float: left;
+            text-align: center;
+            color: #FFFFFFFF;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 12px;
+            font-style: normal;
+            background-color: #000000;
+            margin: 10px;
+        }
+
+        .navTop a.active {
+            background-color: #0C0992ff;          
+            color: #FDF599ff;
+            float: left;
+            text-align: center;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+            font-style: normal;
+            margin: 10px;
+        }
+
+        .flexBody {
+            display:flex; 
+            flex-direction:column;
+            flex: 2;
+            margin: 0;
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
+        }
+
+        .flexArticle {
+            display:flex; 
+            flex-direction:column;
+            flex: 1;
+            font-family: monaco, monospace;
+        }
+
+        html {
+            background-image: linear-gradient(to bottom, #ABD9FF, #BEB5BEff);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /*
+        Deprecated
+        */
+        .responsive {
+            width: 100%;
+            max-width: 1200px;
+            max-height: 1000px;
+            height: auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .flex-containerNew {
+            flex-direction: column;
+            margin: 20px;
+        }
+    </style>
+    <body class = "flexBody">
+        <div class = "navTop">
+            <a href="https://petergo7.github.io/petergo.github.io/introduction.html" class = "everything" >Introduction</a>
+            <a href="https://petergo7.github.io/petergo.github.io/qualifications.html" class = "everything" >Qualifications</a>
+            <a href="https://petergo7.github.io/petergo.github.io/experience.html" class = "everything" >Experience</a>
+            <a href="https://petergo7.github.io/petergo.github.io/goals.html" class = "active" >Goals</a>
+            <a href = "https://github.com/petergo7/petergo.github.io" class = "sourceCode">
+                Source Code: Redirect to GitHub 💻
+            </a>
+        </div>
+        <article class = "flexArticle">
+            <h1><strong>
+                Goals
+            </h1></strong>
+            <h2><b>
+                My Future Goals
+            </h2></b>
+            <p>
+                One of my future goals include building my own rocket company and building a spacecraft with a thermonuclear engine. To build up to that, I want to make a company that sells payload space on rockets for $200,000 per satellite. All of this is to say that I want to amke an ambitious dream of mine come true. Even when I was a child, I wanted to make model rockets all dya long, and even bought a 3D printer to do that, and many of the things I have learnt then help me even now.
+            </p>
+            <div class = "flex-container">
+                </div>
+                    <div class = "flex-containerNew"> 
+                        <iframe width="1020" height="630" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Elon Musk's Tour with Tim Dodd (I want to be like Elon Musk someday)</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>

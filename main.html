@@ -13,6 +13,12 @@
             color: #474347;
         }
 
+        .postletter {
+            font-family: monaco, monospace;
+            font-size: 10px;
+            color: #FFFFFFFF;
+        }
+
         .alertTxt {
             font-family: monaco, monospace;
             font-size: 20px;
@@ -76,7 +82,9 @@
     </style>
     <body>
         <article>
-            <p class = "alertTxt">Alert: This webpage is currently under curtian maintinence from 10:00 AM GMT to 12:00 AM GMT. Links may be frozen and coded not to work, or links may be broken, along with other elements.</p>
+            <!-- Deprecated Alert Text. Edit and Publish!
+            <p class = "alertTxt">Alert: Alert text here.</p>
+            -->
             <h1 class="centerObj">
                 Welcome to Peter's Webpage!
             </h1>
@@ -86,12 +94,20 @@
             <p class="centerObj"> 
                 Click a button below to be taken to that project/file showcase.
             </p>
-            <a href = "main.html" class = "sourceCodeDark" class="centerObj">
-                End of Term Project (Main Introduction Page) 📑
+            <a href = "javascript/JFocus2.html" class = "sourceCodeEmoji" class="centerObj">
+                Javascript Focus 2 🛠️
+                <p class = "postletter">(This button's href changes)</p>
             </a>
-            <a href = "main.html" class = "sourceCodeEmoji" class="centerObj">
-                Constantly Updating JavaScript File Page 🔨
+            <a href = "other/changeLog.html" class = "sourceCodeEmoji" class="centerObj">
+                Change Log ⏱️📝
+                <p class = "postletter">(Not automatic, manual change log)</p>
             </a>
+            <a class = "sourceCodeDark" class="centerObj" download = "End of Term Project - Peter Go">
+                Download End of Term Project Code 📑
+            </a>
+            <p>
+                The code will all work now, as the hrefs have been fixed as well as the javascript button recieving a slight update to be the latest JFocus file. The current refresh of the webpage was last edited on UTC Wednesday 9th, November 11:20 AM. 
+            </p>
         </article>
     </body>
 </html>

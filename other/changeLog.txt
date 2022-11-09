@@ -1,0 +1,3 @@
+All times are in UTC.
+
+Nov 9th (Peter) - Didn't change much, just refreshed the entire webpage and changed a live view of the End of Term Project to a download of a zip file. Planning to add 3 buttons to the webpage.
