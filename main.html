@@ -7,6 +7,13 @@
             text-decoration: none; 
         }
 
+        .flexArticle {
+            display:flex; 
+            flex-direction:column;
+            flex: 1;
+            font-family: monaco, monospace;
+        }
+
         p {
             font-family: monaco, monospace;
             font-size: 14px;
@@ -81,7 +88,7 @@
         }
     </style>
     <body>
-        <article>
+        <article class = "flexArticle">
             <!-- Deprecated Alert Text. Edit and Publish!
             <p class = "alertTxt">Alert: Alert text here.</p>
             -->
@@ -98,11 +105,11 @@
                 Javascript Focus 2 🛠️
                 <p class = "postletter">(This button's href changes)</p>
             </a>
-            <a href = "other/changeLog.html" class = "sourceCodeEmoji" class="centerObj">
+            <a href = "changeLog.html" class = "sourceCodeEmoji" class="centerObj">
                 Change Log ⏱️📝
                 <p class = "postletter">(Not automatic, manual change log)</p>
             </a>
-            <a class = "sourceCodeDark" class="centerObj" download = "End of Term Project - Peter Go">
+            <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class="centerObj" download = "End of Term Project - Peter Go">
                 Download End of Term Project Code 📑
             </a>
             <p>
