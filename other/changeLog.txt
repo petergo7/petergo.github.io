@@ -10,6 +10,8 @@ Nov 9th Cls2 (Peter) - JFoucus 2 Build
 Nov 9th Cls3 (Peter) - JFoucus 2 Bug Fix
 
 Nov 10th MT1 (Peter) - Maintinence Update
+Nov 10th MT2 (Peter) - Maintinence Update Complete
+
 
 Thanks for taking your time to read the change log! 
 Have a nice day! :)

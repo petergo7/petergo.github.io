@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
     <title>Main -petergo7</title>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:ital,wght@1,700;400;200">    
     <style>
         a:link { 
             text-decoration: none; 
+        }
+
+        .flexBody {
+            display:flex; 
+            flex-direction:column;
+            flex: 2;
+            margin: 0;
+            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
         }
 
         .flexArticle {
@@ -15,19 +23,20 @@
         }
 
         p {
-            font-family: monaco, monospace;
+            font-family: "IBM Plex Mono", monospace;
             font-size: 14px;
+            font-weight: 400;
             color: #474347;
         }
 
         .postletter {
-            font-family: monaco, monospace;
+            font-family: "IBM Plex Mono", monospace;
             font-size: 10px;
             color: #FFFFFFFF;
         }
 
         .alertTxt {
-            font-family: monaco, monospace;
+            font-family: "IBM Plex Mono", monospace;
             font-size: 20px;
             color: #FFFFFFFF;
             background-color: #ff0051;
@@ -38,25 +47,24 @@
             padding-right: 10px;
             max-width: 700px;
             text-align: center;
+            margin-left: auto;
+
         }
 
         h1 {
-            font-family: monaco, monospace;
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 700;
+            font-style: italic;
             font-size: 32px;
         }
 
         h2 {
-            font-family: monaco, monospace;
+            font-family: "IBM Plex Mono", monospace;
             font-size: 20px;
         }
 
-        .centerObj {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
         .sourceCodeDark {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: "IBM Plex Mono", monospace;
             float: left;
             text-align: center;
             color: #FFFFFFFF;
@@ -70,30 +78,33 @@
             background-color: #6f006f;
             margin: 10px;
             max-width: max-content;
+            max-height: max-content;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .sourceCodeEmoji {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: "IBM Plex Mono", monospace;
             float: left;
             text-align: center;
             color: #FFFFFFFF;
             border-radius: 5px;
             padding-left: 20px;
             padding-right: 20px;
-            padding-top: 3px;
+            padding-top: 5px;
             padding-bottom: 3px;
             font-size: 12px;
             font-style: normal;
             background-color: #BEB5BEff;
             margin: 10px;
             max-width: max-content;
+            max-height: max-content;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
-    <body>
+    <body class = "flexBody">
         <article class = "flexArticle">
-            <!--<!-- Deprecated Alert Text. Edit and Publish!-->
-            <p class = "alertTxt">Alert: Webpage curtian maintinence from 5:45 AM UTC to 12:00 AM UTC. This maintinence session is for maintaining the integrity and organization of the JavaScript files as well as improving the main homepage</p>
-            
             <h1>
                 Welcome to Peter's Webpage!
             </h1>
@@ -120,7 +131,7 @@
                 Change Log ⏱️📝
                 <p class = "postletter">(Not automatic, manual change log)</p>
             </a>
-            <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark centerObj" download = "End of Term Project - Peter Go">
+            <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class = "centerText" download = "End of Term Project - Peter Go">
                 Download End of Term Project Code 📑
             </a>
             <p>
@@ -128,4 +139,9 @@
             </p>
         </article>
     </body>
+    <footer>
+        <!--<!-- Deprecated Alert Text. Edit and Publish!
+        <p class = "alertTxt">Alert: Webpage curtian maintinence from 5:45 AM UTC to 12:00 AM UTC. This maintinence session is for maintaining the integrity and organization of the JavaScript files as well as improving the main homepage</p>
+        -->
+    </footer>
 </html>
