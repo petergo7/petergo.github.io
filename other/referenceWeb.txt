@@ -3,6 +3,3 @@ Links that I use:
 https://time.is/UTC
 https://github.com/petergo7/petergo.github.io
 https://petergo7.github.io/petergo.github.io/main.html
-https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
-https://developers.google.com/fonts/docs/getting_started
-https://fonts.google.com/specimen/IBM+Plex+Mono?query=ibm

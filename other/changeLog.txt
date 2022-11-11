@@ -18,9 +18,20 @@ Nov 9th Cls3 (Peter) - JFoucus 2 Bug Fix
 Nov 10th MT1 (Peter) - Maintinence Update
 Nov 10th MT2 (Peter) - Maintinence Update Complete
 
-Nov 10th PU7 (Peter) - Deprecated remaining images
-Nov 10th PU-pr8 (Peter) - Public Update Warning and Change Log Updates
-
+Nov 12th PU7 (Peter) - Deprecated remaining images
+Nov 12th PU-pr8 (Peter) - Public Update Warning and Change Log Updates
+Nov 12th PU8 (Peter) - Updates:
+                        - Font changed to IBM Plex Mono (English and other language support in the future)
+                        - Little more description about myself
+                        - CSS and JavaScript are now in their own folders
+                        - CSS used across multiple pages
+                        - Looks a little more professional (noice)
+                        - JFocus (School CS stuff) and JavaScript (Personal Webpage stuff) are properly seperated
+                        - Directories Fixed Extensively
+                        - Instagram and mail information included (Instagram follower policies remain the same)
+                        - End of Term Project - Peter Go.zip Deprecation warning placed at the bottom of the screen
+                        - MIT license enforced on all parts of the webpage
+                        - SO EXCITED!!! (I should be sleeping, idc)
 
 
 Thanks for taking your time to read the change log! 

@@ -11,3 +11,4 @@
 --birch-beige: #FFF6BF;
 --light-sky: #C3F8FF;
 --baby-blue: #ABD9FF;
+--lightish-red: #ff0051;

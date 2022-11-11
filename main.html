@@ -1,138 +1,56 @@
 <!DOCTYPE html>
 <html>
     <title>Main -petergo7</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:ital,wght@1,700;400;200">    
-    <style>
-        a:link { 
-            text-decoration: none; 
-        }
-
-        .flexBody {
-            display:flex; 
-            flex-direction:column;
-            flex: 2;
-            margin: 0;
-            min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
-        }
-
-        .flexArticle {
-            display:flex; 
-            flex-direction:column;
-            flex: 1;
-            font-family: monaco, monospace;
-        }
-
-        p {
-            font-family: "IBM Plex Mono", monospace;
-            font-size: 14px;
-            font-weight: 400;
-            color: #474347;
-        }
-
-        .postletter {
-            font-family: "IBM Plex Mono", monospace;
-            font-size: 10px;
-            color: #FFFFFFFF;
-        }
-
-        .alertTxt {
-            font-family: "IBM Plex Mono", monospace;
-            font-size: 20px;
-            color: #FFFFFFFF;
-            background-color: #ff0051;
-            border-radius: 25px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            padding-left: 10px;
-            padding-right: 10px;
-            max-width: 700px;
-            text-align: center;
-            margin-left: auto;
-
-        }
-
-        h1 {
-            font-family: "IBM Plex Mono", monospace;
-            font-weight: 700;
-            font-style: italic;
-            font-size: 32px;
-        }
-
-        h2 {
-            font-family: "IBM Plex Mono", monospace;
-            font-size: 20px;
-        }
-
-        .sourceCodeDark {
-            font-family: "IBM Plex Mono", monospace;
-            float: left;
-            text-align: center;
-            color: #FFFFFFFF;
-            border-radius: 5px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 3px;
-            padding-bottom: 3px;
-            font-size: 12px;
-            font-style: normal;
-            background-color: #6f006f;
-            margin: 10px;
-            max-width: max-content;
-            max-height: max-content;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .sourceCodeEmoji {
-            font-family: "IBM Plex Mono", monospace;
-            float: left;
-            text-align: center;
-            color: #FFFFFFFF;
-            border-radius: 5px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 5px;
-            padding-bottom: 3px;
-            font-size: 12px;
-            font-style: normal;
-            background-color: #BEB5BEff;
-            margin: 10px;
-            max-width: max-content;
-            max-height: max-content;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:ital,wght@1,700;400;200">
+    <link rel="stylesheet" type = "text/css" href="CSS/cssMain.css">
     <body class = "flexBody">
         <article class = "flexArticle">
-            <h1>
+            <h1 class="centerTxt">
                 Welcome to Peter's Webpage!
             </h1>
-            <p>
+            <p class="centerTxt">
                 Mainly used for Computer Science Showcasing
             </p>
-            <p> 
+            <p class="centerTxt"> 
                 Click a button below to be taken to that project/file showcase.
             </p>
-            <a href = "javascript/JFocus2.html" class = "sourceCodeEmoji centerObj">
-                Javascript Focus 2 🛠️
-                <p class = "postletter">(This button's href changes)</p>
-            </a>
-            <a href = "changeLog.html" class = "sourceCodeEmoji centerObj">
-                Change Log ⏱️📝
-                <p class = "postletter">(Not automatic, manual change log)</p>
-            </a>
-            <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class = "centerText" download = "End of Term Project - Peter Go">
-                Download End of Term Project Code 📑
-            </a>
+            <div class = "flexArticleInverse">
+                <a href = "javascript/JFocus2.html" class = "sourceCodeEmoji centerObj">
+                    Javascript Focus 2 🛠️
+                    <p class = "postletter">(This button's href changes)</p>
+                </a>
+                <a href = "changeLog.html" class = "sourceCodeEmoji centerObj">
+                    Change Log ⏱️📝
+                    <p class = "postletter">(Not automatic, manual change log)</p>
+                </a>
+                <a href = "main.html" class = "shinyButton">
+                    ISS Live Telemetry Data (Under Construction)
+                </a>
+                <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class = "centerText" download = "End of Term Project - Peter Go">
+                    Download End of Term Project Code 📑
+                </a>
+            </div>
+            <p class="centerTxt">
+                The code will all work now, as the hrefs have been fixed as well as the javascript button recieving a slight update to be the latest JFocus file.
+            </p>
+            <h2>A Little Bit About Myself</h2>
             <p>
-                The code will all work now, as the hrefs have been fixed as well as the javascript button recieving a slight update to be the latest JFocus file. The current refresh of the webpage was last edited on UTC Wednesday 9th, November 11:20 AM. 
+                Hello World! My name is Peter Go. I live in Japan and love to launch model rockets along with coding as another little hobby. I want to do a lot of things, like make a self driving bike (electrif, ofc) and also want to make a multi-first-stage model rocket. When I grow up, I also want to work at NASA or JPL. Hope you have a nice day!
+            </p>
+            <h2>Quick Note</h2>
+            <p>
+                This webpage doesn't use cookies or anything, and feel free to look at my source code (button redirect to github above)! This webpage is hosted on GitHub Pages (which I think is cool) and is built using HTML, CSS, JavaScirpt, and other file formats. I use Visual Studio Code as my IDE and really just do this as a side hobby, often just relieving stress by working on the webpage, which is why my code <i>might</i> not be that efficient. But, all in all, I use a light theme in VSCode (Sorry, it just looks good with my room).
             </p>
         </article>
     </body>
     <footer>
-        <!--<!-- Deprecated Alert Text. Edit and Publish!-->
-        <p class = "alertTxt">Alert: Webpage curtian maintinence from 3:00 PM UTC to 5:00 PM UTC. This public update session is for updating the fonts on the general webpage to IBM Plex Mono as well as incorporating APIs and moving JavaScirpt, CSS, and other linkable file types to their own respective Folders and files. This public update session will not be released until 5:00 PM UTC, at which point I probably am going to go to sleep.</p>
-        <!---->
+        <script src = "JavaScript/jsMain.js"></script>
+        <div class = "alertBox flexArticle">
+            <button onclick="dismissAlert()" id="maintinenceAlertButton" class = "dismissButton">
+                Dismiss
+            </button>
+            <h2 class = "centerTxt customAlertHeading">Alert</h2>
+            <p class = "alertTxt" id = "maintinenceAlert">Alert: No Alerts</p>
+        </div>
     </footer>
 </html>
