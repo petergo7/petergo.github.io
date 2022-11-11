@@ -32,6 +32,7 @@ Nov 12th PU8 (Peter) - Updates:
                         - End of Term Project - Peter Go.zip Deprecation warning placed at the bottom of the screen
                         - MIT license enforced on all parts of the webpage
                         - SO EXCITED!!! (I should be sleeping, idc)
+Nov 12th PU8 (Peter) - ISSData.html updated
 
 
 Thanks for taking your time to read the change log! 
