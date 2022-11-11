@@ -3,6 +3,7 @@ Project Abbreviations:
 - PU = Public Uplink
 - Cls = Class 
 - MT = Maintinence Update
+- (something)-pr = (something)-pre-release
 
 
 Nov 9th PU2 (Peter) - Didn't change much, just refreshed the entire webpage and changed a live view of the End of Term Project to a download of a zip file. Planning to add 3 buttons to the webpage.
@@ -18,7 +19,10 @@ Nov 10th MT1 (Peter) - Maintinence Update
 Nov 10th MT2 (Peter) - Maintinence Update Complete
 
 Nov 10th PU7 (Peter) - Deprecated remaining images
+Nov 10th PU-pr8 (Peter) - Public Update Warning and Change Log Updates
+
 
 
 Thanks for taking your time to read the change log! 
+I might sound cold in many of the update descriptions, but it's like that just for time efficiency. 
 Have a nice day! :)
