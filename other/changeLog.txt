@@ -1,4 +1,9 @@
 All times are in UTC.
+Project Abbreviations:
+- PU = Public Uplink
+- Cls = Class 
+- MT = Maintinence Update
+
 
 Nov 9th PU2 (Peter) - Didn't change much, just refreshed the entire webpage and changed a live view of the End of Term Project to a download of a zip file. Planning to add 3 buttons to the webpage.
 Nov 9th PU4 (Peter) - Fixed some bugs, PU2 had a LOT of bugs including classes suddenly working. Everything should be working now!
@@ -11,6 +16,8 @@ Nov 9th Cls3 (Peter) - JFoucus 2 Bug Fix
 
 Nov 10th MT1 (Peter) - Maintinence Update
 Nov 10th MT2 (Peter) - Maintinence Update Complete
+
+Nov 10th PU7 (Peter) - Deprecated remaining images
 
 
 Thanks for taking your time to read the change log! 
