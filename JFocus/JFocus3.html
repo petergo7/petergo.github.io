@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        p {
+            font-family: monaco, monospace;
+        }
+    </style>
+    <body>
+        <p id = "name"></p>
+        <p id = "hometown"></p>
+        <p id = "age"></p>
+        <p id = "mail"></p>
+    </body>
+    <script>
+        var name = prompt("Please enter your name: ");
+        document.getElementById("name").innerHTML = name;
+
+        var hometown = prompt("Please enter your hometown: ");
+        document.getElementById("hometown").innerHTML = hometown;
+
+        var age = prompt("Please enter your age: ");
+        document.getElementById("age").innerHTML = age;
+
+        var mail = prompt("Please enter your email address: ");
+        document.getElementById("mail").innerHTML = mail;
+    </script>
+</html>
