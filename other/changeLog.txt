@@ -36,6 +36,7 @@ Nov 12th PU8 (Peter) - ISSData.html updated
 
 Nov 14th Cls4 (Peter) - Created two files including Foci 3 and 3B
 Nov 14th Cls5 (Peter) - Link made with main.html
+Nov 14th Cls6 (Peter) - Little tweaks to main and Focus3 files
 
 
 Thanks for taking your time to read the change log! 
