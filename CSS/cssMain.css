@@ -111,8 +111,8 @@ a:link {
     font-style: normal;
     background-color: #6f006f;
     margin: 10px;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: min-content;
+    max-height: min-content;
 }
 
 .sourceCodeEmoji {
@@ -129,8 +129,8 @@ a:link {
     font-style: normal;
     background-color: #BEB5BEff;
     margin: 10px;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: min-content;
+    max-height: min-content;
 }
 
 .shinyButton {
@@ -148,8 +148,8 @@ a:link {
     font-style: normal;
     background-color: #0C0992ff;
     margin: 10px;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: min-content;
+    max-height: min-content;
 }
 
 .dismissButton {
@@ -165,8 +165,8 @@ a:link {
     font-size: 15px;
     font-style: normal;
     background-color: #000000;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: min-content;
+    max-height: min-content;
     margin-left: auto;
 }
 
