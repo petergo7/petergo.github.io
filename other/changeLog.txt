@@ -41,6 +41,9 @@ Nov 14th Cls7 (Peter) - Bug Fixes
 
 Nov 14th MT3 (Peter) - Change log not working properly?
 
+Nov 15th Cls8 (Peter) - Additional Fixes prev Focus 3B
+Nov 15th Cls9 (Peter) - Change Log Updates
+
 
 Thanks for taking your time to read the change log! 
 I might sound cold in many of the update descriptions, but it's like that just for time efficiency. 
