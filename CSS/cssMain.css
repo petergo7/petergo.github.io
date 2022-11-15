@@ -13,6 +13,7 @@
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
+    margin: 20px;
 }
 
 .flexArticleInverse {
@@ -111,8 +112,10 @@ a:link {
     font-style: normal;
     background-color: #6f006f;
     margin: 10px;
+    /*
     max-width: max-content;
     max-height: max-content;
+    */
 }
 
 .sourceCodeEmoji {
@@ -129,8 +132,10 @@ a:link {
     font-style: normal;
     background-color: #BEB5BEff;
     margin: 10px;
+    /*
     max-width: max-content;
     max-height: max-content;
+    */
 }
 
 .shinyButton {
@@ -148,8 +153,10 @@ a:link {
     font-style: normal;
     background-color: #0C0992ff;
     margin: 10px;
+    /*
     max-width: max-content;
     max-height: max-content;
+    */
 }
 
 .dismissButton {
@@ -165,8 +172,10 @@ a:link {
     font-size: 15px;
     font-style: normal;
     background-color: #000000;
+    /*
     max-width: max-content;
     max-height: max-content;
+    */
     margin-left: auto;
 }
 
