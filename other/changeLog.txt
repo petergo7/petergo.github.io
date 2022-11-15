@@ -34,6 +34,13 @@ Nov 12th PU8 (Peter) - Updates:
                         - SO EXCITED!!! (I should be sleeping, idc)
 Nov 12th PU8 (Peter) - ISSData.html updated
 
+Nov 14th Cls4 (Peter) - Created two files including Foci 3 and 3B
+Nov 14th Cls5 (Peter) - Link made with main.html
+Nov 14th Cls6 (Peter) - Little tweaks to main and Focus3 files
+Nov 14th Cls7 (Peter) - Bug Fixes
+
+Nov 14th MT3 (Peter) - Change log not working properly?
+
 
 Thanks for taking your time to read the change log! 
 I might sound cold in many of the update descriptions, but it's like that just for time efficiency. 
