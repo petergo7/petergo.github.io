@@ -35,7 +35,7 @@ function dismissLog() {
 */
 
 const d = new Date();
-let hours = d.getHours();
+let hours = d.getUTCHours();
 
 if (hours < 12) {
     document.getElementById("header").innerHTML = "Good Morning and Welcome Back!"
