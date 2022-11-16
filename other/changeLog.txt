@@ -51,6 +51,8 @@ Nov 15th MT7 (Peter) - Deleted some old deprecated files.
 
 Nov 16th MT8 (Peter) - G'morning! Just moved some files. That's it. Have a nice day!
 
+Nov 16th PU9 (Peter) - Just making some header file changes.
+
 
 Thanks for taking your time to read the change log! 
 I might sound cold in many of the update descriptions, but it's like that just for time efficiency. 
