@@ -1,0 +1,252 @@
+.flexBody {
+    display:flex; 
+    flex-direction:column;
+    flex: 2;
+    margin: 0;
+    min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
+}
+
+.flexArticle {
+    display:flex; 
+    flex-direction:column;
+    flex: 1;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.flexArticleInverse {
+    display:flex; 
+    flex-direction:row;
+    flex: 1;
+}
+
+.centerTxt {
+    text-align: center;
+}
+
+.customAlertHeading {
+    color: #FFFFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 26px;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    color: #474347;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #abd9ff5a, #ff00518b);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer { 
+    min-height:50px;
+    background-color: #BEB5BEff;
+    opacity: 75%;
+}
+
+.elementCenter {
+    align-items: center;
+}
+
+.footerText {
+    color: #FFFFFFFF;
+    text-align: center;
+    font-size: 12px;
+    max-width: 750px;
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.finePrint {
+    color: #FFFFFFFF;
+    text-align: left;
+    font-size: 8px;
+    font-family: "IBM Plex Mono", monospace;
+    overflow-wrap: break-word;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postletter {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    color: #FFFFFFFF;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+.sourceCodeDark {
+    font-family: "IBM Plex Mono", monospace;
+    float: left;
+    text-align: center;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-style: normal;
+    background-color: #6f006f;
+    margin: 10px;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+}
+
+.sourceCodeEmoji {
+    font-family: "IBM Plex Mono", monospace;
+    float: left;
+    text-align: center;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-style: normal;
+    background-color: #BEB5BEff;
+    margin: 10px;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+}
+
+.shinyButton {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    float: left;
+    text-align: center;
+    color: #FDF599ff;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-style: normal;
+    background-color: #0C0992ff;
+    margin: 10px;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+}
+
+.dismissButton {
+    font-family: "IBM Plex Mono", monospace;
+    float: right;
+    text-align: right;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-style: normal;
+    background-color: #000000;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+    margin-left: auto;
+}
+
+.navTop {
+    overflow: hidden;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.navTop a.everything {
+    float: left;
+    text-align: center;
+    color: #518CB7ff;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-style: normal;
+    background-color: #0C0992ff;
+    margin: 10px;
+}
+
+.navTop a.active {
+    background-color: #0C0992ff;          
+    color: #FDF599ff;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-style: normal;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-containerNew {
+    flex-direction: column;
+    margin: 20px;
+}
+
+.alertBox {
+    background-color: #ff0051;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.alertTxt {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    color: #FFFFFFFF;
+}
+
+.changeLog {
+    max-height: fit-content;
+}
+
+/* Get back to this later (Just too confusing)
+.dismissIcon {
+    background-color: #6f006f;
+    border-radius: 50%;
+}
+*/

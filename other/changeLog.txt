@@ -60,6 +60,7 @@ Nov 16th PU13 (Peter) - JS Header updating 2
 Nov 17th PU14 (Peter) - JFocus Project Easier Viewing webpage creation started
 Nov 17th PU15 (Peter) - JFocus Project Easier Viewing webpage creation finished. Testing Beginning soon.
 Nov 17th PU16 (Peter) - JFocus folder couldn't access the CSS file. That's all fixed and in order now!
+Nov 17th PU17 (Peter) - JFocus redirect added and text removed
 
 
 Thanks for taking your time to read the change log! 
