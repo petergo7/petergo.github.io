@@ -38,7 +38,7 @@ const d = new Date();
 let hours = d.getHours();
 
 if (hours < 5) {
-    document.getElementById("header").innerHTML = "Good Morning, early bird and Welcome Back!"
+    document.getElementById("header").innerHTML = "Good Morning early bird, and Welcome Back!"
 } else if (hours < 12) {
     document.getElementById("header").innerHTML = "Good Morning, and Welcome Back!"
 } else if (hours < 23) {
