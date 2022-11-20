@@ -15,6 +15,25 @@ function dismissAlert() {
 
 }
 
+var clickedNotHappy = 0;
+
+
+function dismissHappy() {
+
+    alert("You can't dismiss my birthday! It's MY birthday. And it's going to be like that for today. 😤");
+
+
+    clickedNotHappy = clickedNotHappy + 1;
+
+    if (clickedNotHappy >= 10) {
+
+        alert("AYYY! STOP PRESSING THIS BUTTON! It's not going to do anything, and it's MY BIRTHDAY! You hear me? It's my BIRTHDAY!!! 🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳");
+
+        clickedNotHappy = 0
+    }  
+}
+
+
 /*
 function dismissLog() {
     var log = document.getElementById('changeLog');

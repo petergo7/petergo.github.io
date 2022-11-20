@@ -3,41 +3,50 @@
     <title>Main -petergo7</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:ital,wght@1,700;400;200">
     <link rel="stylesheet" type = "text/css" href="CSS/cssMain.css">
-    <body class = "flexBody">
-        <article class = "flexArticle">
-            <h1 id= "header" class="centerTxt">Peter's Webpage!</h1>
-            <p class="centerTxt">
-                Mainly used for Computer Science Showcasing
-            </p>
-            <p class="centerTxt"> 
-                Click a button below to be taken to that project/file showcase.
-            </p>
-            <div>
-                <a href = "JFocus.html" class = "sourceCodeEmoji centerObj">
-                    JFocus Universal Navigator
-                </a>
-                <a href = "changeLog.html" class = "sourceCodeEmoji centerObj">
-                    Change Log ⏱️📝
-                    <p class = "postletter">(Not automatic, manual change log)</p>
-                </a>
-                <a href = "main.html" class = "shinyButton">
-                    ISS Live Telemetry Data (Under Construction)
-                </a>
-                <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class = "centerText" download = "deprecated/End of Term Project - Peter Go">
-                    Download End of Term Project Code 📑
-                </a>
-            </div>
-            <h2>A Little Bit About Myself</h2>
-            <p>
-                Hello World! My name is Peter Go. I live in Japan and love to launch model rockets along with coding as another little hobby. I want to do a lot of things, like make a self driving bike (electric, ofc) and also want to make a multi-first-stage model rocket. When I grow up, I also want to work at NASA or JPL. Hope you have a nice day!
-            </p>
-            <h2>Quick Note</h2>
-            <p>
-                This webpage doesn't use cookies or anything, and feel free to look at my source code (button redirect to github above)! This webpage is hosted on GitHub Pages (which I think is cool) and is built using HTML, CSS, JavaScirpt, and other file formats. I use Visual Studio Code as my IDE and really just do this as a side hobby, often just relieving stress by working on the webpage, which is why my code <i>might</i> not be that efficient. But, all in all, I use a light theme in VSCode (Sorry, it just looks good with my room).
-            </p>
-        </article>
-    </body>
-    <!--
+    <header>
+        <div class = "HappyBox">
+            <button onclick="dismissHappy()" class = "dismissButton">
+                Dismiss
+            </button>
+            <p class = "HappyTxt">It's my birthday!!! 🥳🎂</p>
+        </div>
+    </header>
+    <center>
+        <body class = "flexBody">
+            <article class = "flexArticle">
+                <h1 id= "header" class="centerTxt">Peter's Webpage!</h1>
+                <p class="centerTxt">
+                    Mainly used for Computer Science Showcasing
+                </p>
+                <p class="centerTxt"> 
+                    Click a button below to be taken to that project/file showcase.
+                </p>
+                <div class = "centerTxt">
+                    <a href = "JFocus.html" class = "sourceCodeEmoji centerObj">
+                        JFocus Universal Navigator
+                    </a>
+                    <a href = "changeLog.html" class = "sourceCodeEmoji centerObj">
+                        Change Log ⏱️📝
+                        <p class = "postletter">(Not automatic, manual change log)</p>
+                    </a>
+                    <a href = "main.html" class = "shinyButton">
+                        ISS Live Telemetry Data (Under Construction)
+                    </a>
+                    <a href = "End of Term Project - Peter Go.zip"class = "sourceCodeDark" class = "centerText" download = "deprecated/End of Term Project - Peter Go">
+                        Download End of Term Project Code 📑
+                    </a>
+                </div>
+                <h2>A Little Bit About Myself</h2>
+                <p>
+                    Hello World! My name is Peter Go. I live in Japan and love to launch model rockets along with coding as another little hobby. I want to do a lot of things, like make a self driving bike (electric, ofc) and also want to make a multi-first-stage model rocket. When I grow up, I also want to work at NASA or JPL. Hope you have a nice day!
+                </p>
+                <h2>Quick Note</h2>
+                <p>
+                    This webpage doesn't use cookies or anything, and feel free to look at my source code (button redirect to github above)! This webpage is hosted on GitHub Pages (which I think is cool) and is built using HTML, CSS, JavaScirpt, and other file formats. I use Visual Studio Code as my IDE and really just do this as a side hobby, often just relieving stress by working on the webpage, which is why my code <i>might</i> not be that efficient. But, all in all, I use a light theme in VSCode (Sorry, it just looks good with my room).
+                </p>
+            </article>
+        </body>
+    </center>
     <footer>
         <script src = "JavaScript/jsMain.js"></script>
         <div class = "alertBox flexArticle">
@@ -48,5 +57,4 @@
             <p class = "alertTxt" id = "maintinenceAlert">Alert: Webpage will be under maintinence due to JFocus files being unable to be viewed after a certian amount of time. The next update (PU15) should fix it. The ISS Live Telemetry Data Viewer will be temporarily paused.</p>
         </div>
     </footer>
-    -->
 </html>

@@ -32,6 +32,14 @@
     margin-right: auto;
 }
 
+.HappyHeading {
+    color: #FFFFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
 h1 {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
@@ -234,10 +242,48 @@ a:link {
     margin-right: 15px;
 }
 
+.HappyBox {
+    animation: colorChanger 5s infinite;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes colorChanger {
+    0% {background-color: red;}
+    10%{background-color: pink}
+    20%{background-color:yellow;}
+    30%{background-color:green;}
+    40%{background-color:brown;}
+    50%{background-color: purple;}
+    60%{background-color: darkblue;}
+    70%{background-color: blue;}
+    80%{background-color: lightblue;}
+    90%{background-color: pink;}
+    100% {background-color: red;}
+}
+
 .alertTxt {
     font-family: "IBM Plex Mono", monospace;
     font-size: 20px;
     color: #FFFFFFFF;
+}
+
+.HappyTxt {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 50px;
+    color: #393939;
+    background-color: #0000005e;
+    
+    border-radius: 5px;
+
 }
 
 .changeLog {
