@@ -70,8 +70,9 @@ Nov 20th PU21 (Peter) - JFocus2 Update V3
 Nov 20th PU22 (Peter) - JFocus2 Update V4
 Nov 20th PU23 (Peter) - File allocation changed
 Nov 20th PU24 (Peter) - File size change
-
 Nov 20th PU25 (Peter) - Main and JFocus File redirect changed with the Change Log recieving a slight update
+Nov 20th NULL58297693868934354543 (Peter) - Main title added back
+Nov 20th PU26 (Peter) - Fixed a bug (I think)
 
 
 
