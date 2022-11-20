@@ -69,6 +69,7 @@ Nov 20th PU20 (Peter) - JFocus2 Update V2
 Nov 20th PU21 (Peter) - JFocus2 Update V3
 Nov 20th PU22 (Peter) - JFocus2 Update V4
 Nov 20th PU23 (Peter) - File allocation changed
+Nov 20th PU24 (Peter) - File size change
 
 
 
