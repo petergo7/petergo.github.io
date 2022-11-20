@@ -64,6 +64,7 @@ Nov 17th PU17 (Peter) - JFocus redirect added and text removed
 Nov 17th PU18 (Peter) - Old files updated
 
 Nov 20th MT9 (Peter) - Git Logs tell me that there is a merge error. Trying to fix it right now.
+Nov 20th PU19 (Peter) - JFocus2 Update V1
 
 
 Thanks for taking your time to read the change log! 
