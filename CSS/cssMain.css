@@ -102,6 +102,12 @@ html {
     color: #FFFFFFFF;
 }
 
+.postletterLARGE {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 28px;
+    color: #FFFFFFFF;
+}
+
 a:link { 
     text-decoration: none; 
 }
@@ -139,6 +145,26 @@ a:link {
     font-size: 18px;
     font-style: normal;
     background-color: #BEB5BEff;
+    margin: 10px;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+}
+
+.sourceCodeEmojiLARGE {
+    font-family: "IBM Plex Mono", monospace;
+    float: left;
+    text-align: center;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 48px;
+    font-style: normal;
+    background-color: #ffac63;
     margin: 10px;
     /*
     max-width: max-content;
