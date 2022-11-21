@@ -278,12 +278,11 @@ a:link {
 
 .HappyTxt {
     font-family: "IBM Plex Mono", monospace;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 50px;
     color: #393939;
     background-color: #0000005e;
-    
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
 
