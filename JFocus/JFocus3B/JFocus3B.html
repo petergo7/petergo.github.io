@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type = "text/css" href="cssJFocus3B.css">
+    <body class = "flexBody">
+        <article class = "flexArticle">
+            <center><h1>Animal Image Generator (a.k.a JFocus 3B)</h1></center>
+            <center><img id = "img1" src = "" ></center>
+            <center><h2 id = "descTextAnimal"></h2></center>
+            <center><p id = "inputDisplay"></p></center>
+            <center><p id = "returnDisplay"></p></center>
+            <script>
+                var animalName = prompt("What animal would you like to see?", "Enter an animal here in all lowercase")
+
+                var dogSpell = ["dog", "DOG", "do", "dg", "og", "dogg", "doog", "ddog", "dohg", "dobg", "dong", "dofg", "dorg", "dotg", "doyg", "dovg", "dpog", "dlog", "diog", "dkog", "fdog", "cdog", "vdog", "sdog", "wdog", "edog", "rdog", "xdog", "doh", "dob", "don", "dof", "dor", "dot", "doy", "dov", "dpg", "dlg", "dig", "dkg", "fog", "cog", "vog", "sog", "wog", "eog", "rog", "xog", "dgo", "odg"]
+
+                var catSpell = ["cat", "CAT", "ca", "ct", "at", "catt", "caat", "ccat", "cayt", "cagt", "caht", "cart", "caft", "csat", "czat", "cxat", "cqat", "cwat", "vcat", "xcat", "scat", "dcat", "fcat", "cay", "cag", "cah", "car", "caf", "cst", "czt", "cxt", "cqt", "cwt", "vat", "xat", "sat", "dat", "fat", "cta", "act"]
+
+                var elephantSpell = ["elephant", "ELEPHANT", "elephan", "elephat", "elephnt", "elepant", "elehant", "lephant", "eephant", "lephant", "elephantt", "elephannt", "elephaant", "elephhant", "elepphant", "eleephant", "ellephant", "eelephant", "elephanyt", "elephangt", "elephanht", "elephanrt", "elephanft", "elephamnt", "elephabnt", "elephagnt", "elephahnt", "elephajnt", "elephsant", "elephzant", "elephxant", "elephqant", "elephwant", "elepjhant", "elepnhant", "elepmhant", "elepghant", "elepthant", "elepyhant", "elepuhant", "elepbhant", "eleophant", "elelphant", "elrephant", "eldephant", "elfephant", "elwephant", "elsephant", "eklephant", "eilephant", "eolephant", "eplephant", "relephant", "delephant", "felephant", "welephant", "selephant", "elephany", "elephang", "elephanh", "elephanr", "elephanf", "elephamt", "elephabt", "elephagt", "elephaht", "elephajt", "elephsnt", "elephznt", "elephxnt", "elephqnt", "elephwnt", "elepjant", "elepnant", "elepmant", "elepgant", "eleptant", "elepyant", "elepuant", "elepbant", "eleohant", "elelhant", "rlephant", "dlephant", "flephant", "wlephant", "slephant", "ekephant", "eiephant", "eoephant", "epephant", "rlephant", "dlephant", "flephant", "wlephant", "slephant", "elephatn", "elephnat", "elepahnt", "elehpant", "elpehant", "eelphant", "leephant", ]
+
+                var pigSpell = ["pig", "PIG", "pi", "pg", "ig", "pigg", "piig", "ppig", "pihg", "pibg", "ping", "pifg", "pirg", "pitg", "piyg", "pivg", "poig", "pkig", "plig", "puig", "pjig", "opig", "lpig", "pih", "pib", "pin", "pif", "pir", "pit", "piy", "piv", "pog", "pkg", "plg", "pug", "pjg", "oig", "lig", "pgi", "ipg"]
+
+                var mouseSpell = ["mouse", "MOUSE", "mous", "moue", "mose", "muse", "ouse", "mousee", "mousse", "mouuse", "moouse", "mmouse", "mousre", "mousde", "mousfe", "mouswe", "mousse", "moudse", "mouxse", "moucse", "mouase", "mouqse", "mouwse", "mouese", "mouzse", "moiuse", "mojuse", "mokuse", "moyuse", "mohuse", "mpouse", "mlouse", "miouse", "mkouse", "nmouse", "hmouse", "jmouse", "kmouse", "mousr", "mousd", "mousf", "mousw", "mouss", "moude", "mouxe", "mouce", "mouae", "mouqe", "mouwe", "mouee", "mouze", "moise", "mojse", "mokse", "moyse", "mohse", "mpuse", "mluse", "miuse", "mkuse", "nouse", "house", "jouse", "kouse", "moues", "mosue", "muose", "omuse", ]
+
+                // work smart, not hard 😎
+                // I am so smart (Self-praise, not good)
+
+                if (dogSpell.includes(animalName)) {
+                    document.getElementById("img1").src = "dog.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's a DOG! 🐕";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we returned with: " + animalName + " from our extensive array.";
+                } else if (catSpell.includes(animalName)) {
+                    document.getElementById("img1").src = "cat.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's a CAT! 🐈";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we returned with: " + animalName + " from our extensive array.";
+                } else if (elephantSpell.includes(animalName)) {
+                    document.getElementById("img1").src = "elephant.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's an ELEPHANT! 🐘";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we returned with: " + animalName + " from our extensive array.";
+                } else if (mouseSpell.includes(animalName)) {
+                    document.getElementById("img1").src = "mouse.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's a MOUSE! 🐁";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we returned with: " + animalName + " from our extensive array.";
+                } else if (pigSpell.includes(animalName)) {
+                    document.getElementById("img1").src = "pig.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's a PIG! 🐖";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we returned with: " + animalName + " from our extensive array.";
+                } else {
+                    document.getElementById("img1").src = "mystery.jpeg";
+                    document.getElementById("descTextAnimal").innerHTML = "It's a ... mystery! 🤨";
+                    document.getElementById("inputDisplay").innerHTML = "You typed: " + animalName;
+                    document.getElementById("returnDisplay").innerHTML = "And we couldn't find: " + animalName + " from our extensive array. This animal might not be in our files, or not exist, or it might have not been filtered correctly. Try again if you think that this is a mistake.";
+                }
+            </script>
+        </article>
+    </body>
+</html>
