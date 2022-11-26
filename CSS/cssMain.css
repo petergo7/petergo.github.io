@@ -47,19 +47,19 @@
 }
 
 h1 {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-weight: 700;
     font-style: italic;
     font-size: 48px;
 }
 
 h2 {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-size: 26px;
 }
 
 p {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-size: 18px;
     font-weight: 400;
     color: #474347;
@@ -86,7 +86,7 @@ html {
     text-align: center;
     font-size: 12px;
     max-width: 750px;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +95,7 @@ html {
     color: #FFFFFFFF;
     text-align: left;
     font-size: 8px;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     overflow-wrap: break-word;
     max-width: 1250px;
     margin-left: auto;
@@ -103,13 +103,13 @@ html {
 }
 
 .postletter {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-size: 14px;
     color: #FFFFFFFF;
 }
 
 .postletterLARGE {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-size: 28px;
     color: #FFFFFFFF;
 }
@@ -119,7 +119,7 @@ a:link {
 }
 
 .sourceCodeDark {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     float: left;
     text-align: center;
     color: #FFFFFFFF;
@@ -146,7 +146,7 @@ a:link {
 }
 
 .sourceCodeEmoji {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     float: left;
     text-align: center;
     color: #FFFFFFFF;
@@ -166,7 +166,7 @@ a:link {
 }
 
 .sourceCodeEmojiLARGE {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     float: left;
     text-align: center;
     color: #FFFFFFFF;
@@ -186,7 +186,7 @@ a:link {
 }
 
 .shinyButton {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-weight: 700;
     float: left;
     text-align: center;
@@ -207,7 +207,7 @@ a:link {
 }
 
 .dismissButton {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     float: right;
     text-align: right;
     color: #FFFFFFFF;
@@ -228,7 +228,7 @@ a:link {
 
 .navTop {
     overflow: hidden;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
 }
 
 .navTop a.everything {
@@ -310,13 +310,13 @@ a:link {
 }
 
 .alertTxt {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-size: 20px;
     color: #FFFFFFFF;
 }
 
 .HappyTxt {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Red Hat Display";
     font-weight: 700;
     font-size: 50px;
     color: #393939;
