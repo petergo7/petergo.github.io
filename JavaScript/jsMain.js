@@ -42,3 +42,10 @@ function confirmExit() {
         window.location.href = "https://github.com/petergo7/petergo.github.io";
     }
 }
+
+function confirmExitCustom1() {
+    var confirmResultExitJFocus = confirm("This redirect may not succeed, or bring you to a 404 page error. Upon the fact that the redirect does suceed, you will be directed to a developer view. The page in request is currently being worked on, and is NOT the finished product. Would you still like to redirect?")
+    if (confirmResultExitJFocus) {
+        window.location.href = "https://petergo7.github.io/petergo.github.io/JFocus/JFocus4/JFocus4.html";
+    }
+}

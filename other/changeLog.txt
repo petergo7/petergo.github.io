@@ -91,6 +91,7 @@ Nov 22nd Cls11 (Peter) - JFocus 4 Dev Alert/Update
 Nov 27th PU30 (Peter) - JFocus 4 Dev Alert/Update 2
 Nov 27th PU31 (Peter) - Massive Backbone update. Imma go to sleep real quick 😴
 
+Nov 29th PU32 (Peter) - No real large changes. There is a new JFocus dev view tho.
 
 
 

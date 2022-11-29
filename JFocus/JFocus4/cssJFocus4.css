@@ -84,6 +84,12 @@ html {
     margin-right: auto;
 }
 
+.centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .postletter {
     font-family: "IBM Plex Mono", monospace;
     font-size: 14px;
