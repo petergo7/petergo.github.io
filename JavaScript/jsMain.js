@@ -36,7 +36,7 @@ function dismissHappy() {
 const d = new Date();
 var hours = d.getHours();
 
-function confirmExit() {
+function confirmExitGithub() {
     var confirmResultExit = confirm("You are leaving this website to go to a secure and safe website. However, other user-generated content is not managed by Peter Go. Would you still like to initiate a redirect?")
     if (confirmResultExit) {
         window.location.href = "https://github.com/petergo7/petergo.github.io";

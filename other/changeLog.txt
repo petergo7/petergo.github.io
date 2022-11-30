@@ -92,7 +92,7 @@ Nov 27th PU30 (Peter) - JFocus 4 Dev Alert/Update 2
 Nov 27th PU31 (Peter) - Massive Backbone update. Imma go to sleep real quick 😴
 
 Nov 29th PU32 (Peter) - No real large changes. There is a new JFocus dev view tho.
-
+Nov 30th PU33 (Peter) - No real changes. Just another button!
 
 
 Thanks for taking your time to read the change log! 
