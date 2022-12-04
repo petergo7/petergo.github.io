@@ -101,6 +101,8 @@ Nov 30th NVA3 (Peter) - Three.js html file updated
 Nov 30th NVA4 (Peter) - Three.js JS file added
 Nov 30th NVA5 (Peter) - Three.js JS file updated
 
+Dec 4th Cls12 (Peter) - JFocus 4 Update Complete.
+
 
 
 
