@@ -71,7 +71,7 @@ function calculateBMI() {
 };
 
 function calculateBMISimple() {
-    confirm("This process calculates your BMI and gives results based upon user input. No user data is stored permenantly, sent to a server for processing, or is viewed by others. This procedure gives a loose medical result, however, seek medical assistance if needed. This procedure is also not meant for accurate self-diagnosis. Click OK to proceed. DEV.PU1");
+    confirm("This process calculates your BMI and gives results based upon user input. No user data is stored permenantly, sent to a server for processing, or is viewed by others. This procedure gives a loose medical result, however, seek medical assistance if needed. This procedure is also not meant for accurate self-diagnosis. Click OK to proceed. DEV.PU2");
     console.log("Check: User Confirmation Alerted.")
     console.log("Check: Update Alt 1.")
     var weight = prompt("Enter your weight for calculations in kgs.", "50");
@@ -83,7 +83,7 @@ function calculateBMISimple() {
     var calcWI = weightInt;
     var calcHI = heightInt/100;
 
-    var BMI = calcWI/(calcHI^2);
+    var BMI = calcWI/(calcHI*calcHI);
 
     if (BMI < 18.5) {
         var BMIFeedback = "you are within the underweight range!";
@@ -99,6 +99,6 @@ function calculateBMISimple() {
 
     var BMI = Math.round((BMI + Number.EPSILON) * 100) / 100
 
-    confirm("your BMI was " + BMI + " and " + BMIFeedback);
+    confirm("Your BMI was " + BMI + " and " + BMIFeedback);
 
 }

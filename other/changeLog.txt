@@ -84,7 +84,7 @@ Nov 21st MT10 (Peter) - Alerts gone
 Nov 21st MT11 (Peter) - Spelling refreshed
 Nov 21st MT12 (Peter) - Spelling refreshed
 
-IT's not my birthday... 😢
+It's not my birthday... 😢
 Nov 22nd BIRTHDAY2 (Peter) - No Birthday Update...
 
 Nov 22nd Cls11 (Peter) - JFocus 4 Dev Alert/Update
@@ -102,8 +102,7 @@ Nov 30th NVA4 (Peter) - Three.js JS file added
 Nov 30th NVA5 (Peter) - Three.js JS file updated
 
 Dec 4th Cls12 (Peter) - JFocus 4 Update Complete.
-
-
+Dec 4th Cls13 (Peter) - JFocus 4 Update Complete 2.
 
 
 Thanks for taking your time to read the change log! 
