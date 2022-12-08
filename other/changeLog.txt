@@ -104,6 +104,8 @@ Nov 30th NVA5 (Peter) - Three.js JS file updated
 Dec 4th Cls12 (Peter) - JFocus 4 Update Complete.
 Dec 4th Cls13 (Peter) - JFocus 4 Update Complete 2.
 
+Dec 4th Cls14 (Peter) - Group folder added to the GitHub Repo. The code may not be mine, and does not fall under the copyright notice.
+
 
 Thanks for taking your time to read the change log! 
 I might sound cold in many of the update descriptions, but it's like that just for time efficiency. 

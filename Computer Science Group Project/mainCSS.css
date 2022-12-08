@@ -1,0 +1,74 @@
+/* 
+THIS A COMMENT
+CSS file for main purposes. Use carefully with direction webpages.
+*/
+
+.flexBody {
+    display:flex; 
+    flex-direction:column;
+    flex: 2;
+    margin: 0;
+    min-height: 100vh; /*This min-height thingy makes sure that the flex direction is in the maximum fleeeeeeex! Just don't delete it ok? :) */
+}
+
+.flexArticle {
+    display:flex; 
+    flex-direction:column;
+    flex: 1;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+
+h1 {
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: "Red Hat Display";
+    font-size: 26px;
+}
+
+p {
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    font-weight: 400;
+    color: #474347;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #abd9ff5a, #ff00518b);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sourceCodeDark {
+    font-family: "Red Hat Display";
+    float: left;
+    text-align: center;
+    color: #FFFFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-style: normal;
+    background-color: #6f006f;
+    margin: 10px;
+    border: none;
+    /*
+    max-width: max-content;
+    max-height: max-content;
+    */
+}
